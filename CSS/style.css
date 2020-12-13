@@ -1,0 +1,204 @@
+@media screen and (min-width:480px){/*ecran ayant pour largeur minimale 480 px*/
+
+
+body {
+ 
+  margin: auto;
+  background-image: url(../images/fond-ecran.jpg   );
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.accueil{
+  height: 65%;
+  
+}
+
+header {
+	height: 100px;
+}
+
+h1 {
+  font-size: 350%;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 15px;
+}
+
+h1, p {
+  font-weight: 300;
+  font-family: museo;
+	color:black ;
+}
+
+a {
+	text-decoration: none;
+  padding: 7px;
+  font-size: 25px;
+	color:black  ;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight:bold;
+  color:orangeredfelicitationInscription
+}
+
+ul li { 
+	list-style-type: none;
+  display: inline-block;
+}
+
+nav#main ul {
+  position: relative;
+  text-align: center;
+}
+
+
+.main1, #formulaire{ 
+ margin-top: 10%;
+text-align:center;
+background-color:rgba(150,150,150,0.5);
+
+
+}
+#felicitationInscription, #merci, #felicitation{
+  margin-top: 5em;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30;
+  color: black;
+}
+footer {
+  margin-left: 20px;
+  margin-top: 10%;
+position: relative;
+bottom: 0;
+ left: 0; 
+right: 0;
+text-align:center;
+}
+#presentation{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  margin-top:10% ;
+  background-color: rgba(150,150,150,0.5);
+  width: 80%;
+  height: 70%;
+  text-align: center;
+  margin-left:9% ;
+  padding-top: 10%;
+ 
+}
+
+}
+@media screen and (max-width:480px){ /*ecran ayant pour largeur maximale 480 px*/
+  body {
+    width: auto;
+    height: auto;
+ 
+    margin: auto;
+    background-image: url(../images/fond-ecran.jpg   );
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  }
+  .accueil{
+    width: auto;
+    height: auto;
+    height: auto;
+  }
+  
+  header {
+    width: auto;
+    height: auto;
+    height: auto;
+  }
+  
+  h1 {
+    width: auto;
+    height: auto;
+    font-size: 350%;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  h1, p {
+    width: auto;
+    height: auto;
+    font-weight: 300;
+    font-family: museo;
+    color:black ;
+  }
+  
+  a {
+
+    text-decoration: none;
+    padding: 7px;
+    font-size: 25px;
+    color:black  ;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    font-weight:bold;
+    color:orangeredfelicitationInscription
+  }
+  
+  ul li { 
+    width: auto;
+    height: auto;
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  nav#main ul {
+    width: auto;
+    height: auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  .main1, #formulaire{ 
+    width: auto;
+    height: auto;
+   margin-top: 20%;
+  text-align:center;
+  background-color:rgba(150,150,150,0.5);
+  
+  
+  }
+  #felicitationInscription, #merci, #felicitation{
+    margin-top: 5em;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30;
+    color: black;
+  }
+  footer {
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 10%;
+  position: relative;
+  bottom: 0;
+   left: 0; 
+  right: 0;
+  text-align:center;
+  }
+  #presentation{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    margin-top:10% ;
+    background-color: rgba(150,150,150,0.5);
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    margin-left:9% ;
+    padding-top: 10%;
+
+  }
+
+}
